@@ -4,9 +4,12 @@ This assembly language is for a machine with four registers,
 - Two registers, A & B, arranged as an internal stack.
 - A program counter, PC 
 - A stack pointer, SP
+
+
 These registers are 32 bits in size. Instructions have either no operands or a single operand. The
 operand is a signed 2's complement value. The encoding uses the bottom 8 bits for opcode and
 the upper 24 bits for operand.
+
 As with most assembly languages, this is line based (one statement per line). Comments begin
 with a ';' and anything on the line after the ';' is ignored. Blank lines and lines containing only a
 comment are permitted (and ignored). White space (' ' and tabs) are permitted at the beginning of
@@ -19,7 +22,9 @@ number can be decimal, hex or octal.
 
 
 To run this Assembler, you simply need to add your filename in Line 16 of assembler code and run it.
+
 Compile by : g++ asm.cpp -o asm
+
 Run by : ./asm 
 
 

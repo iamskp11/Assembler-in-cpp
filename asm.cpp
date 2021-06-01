@@ -13,7 +13,7 @@ using namespace std;
 #define ll signed long long int
 
 //File pointers
-ifstream fp1("bubble.asm");  // File to be processed
+ifstream fp1("");  // File to be processed  ---- Input File containing SIMPLE ASSEMBLY CODE
 ofstream fp2("bubble.log"); // Error File
 ofstream fp3("bubble.o");  // Machine Codes
 ofstream fp4("bubble.l"); // Listing File

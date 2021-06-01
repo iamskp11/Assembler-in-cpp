@@ -18,3 +18,10 @@ alphanumeric string beginning with a letter . An operand is either a label or a 
 number can be decimal, hex or octal. 
 
 
+To run this Assembler, you simply need to add your filename in Line 16 of assembler code and run it.
+Compile by : g++ asm.cpp -o asm
+Run by : ./asm 
+
+
+
+
